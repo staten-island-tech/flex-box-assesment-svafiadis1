@@ -11,10 +11,15 @@ $peach: (
 
 .header{
     height: 70vh;
-    background-color: $peach;
+    background-color:$peach;
     display: flex;
     flex-direction: row;
     margin: 10px;
+}
+
+.flex-parent{
+   color: white; 
+   font-size: 20px;
 }
 
 #text2{
