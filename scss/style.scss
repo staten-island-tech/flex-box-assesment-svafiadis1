@@ -4,27 +4,5 @@ html {
     font-size: 62.5%;
     box-sizing: border-box;
   }
-
-$peach: (
-    primary: #FFCCBC
-);
-
-.header{
-    height: 70vh;
-    background-color:$peach;
-    display: flex;
-    flex-direction: row;
-    margin: 10px;
-}
-
-.flex-parent{
-   color: white; 
-   font-size: 20px;
-}
-
-#text2{
-   flex-grow: 2;
-   display: flex; 
-   justify-content: space-around;
-}
- 
+  
+  @import"./_header.scss";

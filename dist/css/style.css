@@ -8,7 +8,7 @@ html {
 
 .header {
   height: 70vh;
-  background-color: #FFCCBC;
+  background-color: #311B92;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -16,6 +16,14 @@ html {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  margin: 10px;
+}
+
+.flex-parent {
+  color: white;
+  font-size: 20px;
+  background-color: #651FFF;
+  height: 20vh;
   margin: 10px;
 }
 
