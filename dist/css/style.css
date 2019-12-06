@@ -7,7 +7,7 @@ html {
 }
 
 .header {
-  height: 70vh;
+  height: 100vh;
   background-color: #311B92;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -30,7 +30,7 @@ html {
       justify-content: space-around;
 }
 
-#text1 {
+#container1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -39,7 +39,7 @@ html {
           align-items: center;
 }
 
-#text2 {
+#container2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -60,5 +60,64 @@ html {
   display: -ms-flexbox;
   display: flex;
   height: 50vh;
+}
+
+.body {
+  height: 100vh;
+  background-color: #311B92;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin: 10px;
+}
+
+.flex-child2 {
+  height: 90vh;
+  background-color: #651FFF;
+  margin: 15px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+#container3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 20px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+#container4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 20px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+#text1 {
+  color: white;
+  font-size: 4rem;
+  margin: 10px;
+}
+
+#text2 {
+  color: white;
+  font-size: 4rem;
+  margin: 10px;
 }
 /*# sourceMappingURL=style.css.map */

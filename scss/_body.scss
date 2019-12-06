@@ -1,0 +1,42 @@
+@import"./_variables.scss";
+
+.body{
+    height: 100vh;
+    background-color: color(primary);
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+
+.flex-child2{
+    height: 90vh;
+    background-color: color(secondary);
+    margin: 15px;
+    flex-grow: 1;
+ }
+
+ #container3{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    flex-grow: 1;
+ }
+
+ #container4{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    flex-grow: 1;
+ }
+
+ #text1{
+   color: white; 
+    font-size: 4rem;
+    margin: 10px;
+ }
+
+ #text2{
+    color: white; 
+    font-size: 4rem;
+    margin: 10px;
+ }
