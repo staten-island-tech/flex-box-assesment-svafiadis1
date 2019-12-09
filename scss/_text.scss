@@ -9,22 +9,19 @@
 }
 
 .flex-child2{
-    height: 90vh;
     background-color: color(secondary);
     margin: 15px;
-    flex-grow: 1;
  }
 
  #container3{
     display: flex;
-    justify-content: center;
     padding: 20px;
     flex-grow: 1;
  }
 
  #container4{
+   background-color: color(secondary);
     display: flex;
-    justify-content: center;
     padding: 20px;
     flex-grow: 1;
  }
@@ -33,10 +30,16 @@
    color: white; 
     font-size: 4rem;
     margin: 10px;
+    flex-grow: 1;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    width: 50vh;
  }
 
  #text2{
     color: white; 
     font-size: 4rem;
     margin: 10px;
+    flex-grow: 1;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    width: 50vh;
  }
