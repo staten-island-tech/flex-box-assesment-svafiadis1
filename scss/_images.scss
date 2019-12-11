@@ -10,31 +10,20 @@
     margin: 10px;
 }
 
-.flex-child{
+.flex-parent{
    background-color: color(secondary);
    margin: 15px;
    flex-grow: 1;
    justify-content: space-around;
 }
 
-#container1{
+#container{
     display: flex;
     align-items: center;
-    width: 50vh;
-}
-
-#container2{
-   display: flex; 
-   align-items: center;
-   width: 50vh;
+    flex-direction: column;
 }
  
-#img1{
+#img{
     display: flex;
-    height: 50vh;
-}
-
-#img2{
-    display: flex;
-    height: 50vh;
+    height: 30vh;
 }

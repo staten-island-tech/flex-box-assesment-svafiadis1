@@ -8,38 +8,35 @@
     margin: 10px;
 }
 
-.flex-child2{
+.flex-parent2{
     background-color: color(secondary);
     margin: 15px;
  }
 
- #container3{
-    display: flex;
-    padding: 20px;
-    flex-grow: 1;
- }
-
- #container4{
+ #container2{
    background-color: color(secondary);
     display: flex;
     padding: 20px;
-    flex-grow: 1;
+    width: 40vw;
+    flex-direction: column;
  }
 
- #text1{
+ #container3{
+   background-color: color(secondary);
+   display: flex;
+   padding: 20px;
+   width: 60vw;
+   flex-direction: column;
+ }
+
+ #text{
    color: white; 
     font-size: 4rem;
     margin: 10px;
     flex-grow: 1;
     font-family: 'M PLUS Rounded 1c', sans-serif;
-    width: 50vh;
  }
 
- #text2{
-    color: white; 
-    font-size: 4rem;
-    margin: 10px;
-    flex-grow: 1;
-    font-family: 'M PLUS Rounded 1c', sans-serif;
-    width: 50vh;
+ #upperbox{
+
  }
