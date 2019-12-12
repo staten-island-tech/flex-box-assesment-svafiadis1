@@ -8,7 +8,7 @@ html {
 
 .header {
   height: 100vh;
-  background-color: #311B92;
+  background-color: #6311c7;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -19,7 +19,7 @@ html {
 }
 
 .flex-parent {
-  background-color: #651FFF;
+  background-color: #311B92;
   margin: 15px;
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
@@ -46,11 +46,13 @@ html {
   display: -ms-flexbox;
   display: flex;
   height: 30vh;
+  border: 5px solid white;
+  border-radius: 15px;
 }
 
 .body {
   height: 100vh;
-  background-color: #311B92;
+  background-color: #6311c7;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -61,12 +63,12 @@ html {
 }
 
 .flex-parent2 {
-  background-color: #651FFF;
+  background-color: #311B92;
   margin: 15px;
 }
 
 #container2 {
-  background-color: #651FFF;
+  background-color: #311B92;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -79,7 +81,6 @@ html {
 }
 
 #container3 {
-  background-color: #651FFF;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -99,5 +100,35 @@ html {
       -ms-flex-positive: 1;
           flex-grow: 1;
   font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.flex-parent3 {
+  margin: 15px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.flex-child {
+  background-color: #311B92;
+  margin: 15px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#box {
+  width: 55vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 50vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 /*# sourceMappingURL=style.css.map */

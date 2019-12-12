@@ -1,7 +1,6 @@
 $colors: (
-    primary: #311B92,
-    secondary: #651FFF
-    quartenary: #B388FF
+    primary: rgb(99, 17, 199),
+    secondary: #311B92
 );
 
 @function color($color-name) {
