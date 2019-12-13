@@ -1,1 +1,18 @@
 @import"./_variables.scss";
+
+.titleblock{
+    height: 15vh;
+    background-color: color(secondary);
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+    border-radius: 15px;
+    align-items: center;
+}
+
+#titletext{
+    color: white; 
+    font-size: 5rem;
+    margin: 20px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+  }
